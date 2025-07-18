@@ -1,0 +1,181 @@
+** Drc report for panel.kicad_pcb **
+** Created on 2025-07-20T11:11:48-0400 **
+
+** Found 57 DRC violations **
+[lib_footprint_issues]: The current configuration does not include the library 'Library'.
+    Local override; warning
+    @(107.8050 mm, 72.9000 mm): Footprint D4
+[lib_footprint_issues]: The current configuration does not include the library 'Library'.
+    Local override; warning
+    @(153.8050 mm, 40.9000 mm): Footprint D4
+[lib_footprint_issues]: The current configuration does not include the library 'Library'.
+    Local override; warning
+    @(114.0000 mm, 51.0000 mm): Footprint J1
+[lib_footprint_issues]: The current configuration does not include the library 'Library'.
+    Local override; warning
+    @(130.8500 mm, 61.1000 mm): Footprint D1
+[lib_footprint_issues]: The current configuration does not include the library 'Library'.
+    Local override; warning
+    @(107.8500 mm, 29.1000 mm): Footprint D1
+[lib_footprint_issues]: The current configuration does not include the library 'Library'.
+    Local override; warning
+    @(130.8050 mm, 56.9000 mm): Footprint D4
+[lib_footprint_issues]: The current configuration does not include the library 'Library'.
+    Local override; warning
+    @(153.8050 mm, 56.9000 mm): Footprint D4
+[lib_footprint_issues]: The current configuration does not include the library 'Library'.
+    Local override; warning
+    @(183.0000 mm, 51.0000 mm): Footprint J1
+[lib_footprint_issues]: The current configuration does not include the library 'Library'.
+    Local override; warning
+    @(114.0000 mm, 35.0000 mm): Footprint J1
+[lib_footprint_issues]: The current configuration does not include the library 'Library'.
+    Local override; warning
+    @(153.8050 mm, 88.9000 mm): Footprint D4
+[lib_footprint_issues]: The current configuration does not include the library 'Library'.
+    Local override; warning
+    @(153.8500 mm, 61.1000 mm): Footprint D1
+[lib_footprint_issues]: The current configuration does not include the library 'Library'.
+    Local override; warning
+    @(176.8050 mm, 40.9000 mm): Footprint D4
+[lib_footprint_issues]: The current configuration does not include the library 'Library'.
+    Local override; warning
+    @(160.0000 mm, 35.0000 mm): Footprint J1
+[lib_footprint_issues]: The current configuration does not include the library 'Library'.
+    Local override; warning
+    @(107.8050 mm, 40.9000 mm): Footprint D4
+[lib_footprint_issues]: The current configuration does not include the library 'Library'.
+    Local override; warning
+    @(130.8050 mm, 72.9000 mm): Footprint D4
+[lib_footprint_issues]: The current configuration does not include the library 'Library'.
+    Local override; warning
+    @(176.8500 mm, 61.1000 mm): Footprint D1
+[lib_footprint_issues]: The current configuration does not include the library 'Library'.
+    Local override; warning
+    @(153.8500 mm, 45.1000 mm): Footprint D1
+[lib_footprint_issues]: The current configuration does not include the library 'Library'.
+    Local override; warning
+    @(130.8050 mm, 88.9000 mm): Footprint D4
+[lib_footprint_issues]: The current configuration does not include the library 'Library'.
+    Local override; warning
+    @(130.8500 mm, 77.1000 mm): Footprint D1
+[lib_footprint_issues]: The current configuration does not include the library 'Library'.
+    Local override; warning
+    @(176.8050 mm, 56.9000 mm): Footprint D4
+[lib_footprint_issues]: The current configuration does not include the library 'Library'.
+    Local override; warning
+    @(107.8500 mm, 77.1000 mm): Footprint D1
+[lib_footprint_issues]: The current configuration does not include the library 'Library'.
+    Local override; warning
+    @(153.8500 mm, 77.1000 mm): Footprint D1
+[lib_footprint_issues]: The current configuration does not include the library 'Library'.
+    Local override; warning
+    @(114.0000 mm, 67.0000 mm): Footprint J1
+[lib_footprint_issues]: The current configuration does not include the library 'Library'.
+    Local override; warning
+    @(176.8500 mm, 77.1000 mm): Footprint D1
+[lib_footprint_issues]: The current configuration does not include the library 'Library'.
+    Local override; warning
+    @(176.8050 mm, 88.9000 mm): Footprint D4
+[lib_footprint_issues]: The current configuration does not include the library 'Library'.
+    Local override; warning
+    @(176.8500 mm, 29.1000 mm): Footprint D1
+[lib_footprint_issues]: The current configuration does not include the library 'Library'.
+    Local override; warning
+    @(137.0000 mm, 35.0000 mm): Footprint J1
+[lib_footprint_issues]: The current configuration does not include the library 'Library'.
+    Local override; warning
+    @(130.8500 mm, 29.1000 mm): Footprint D1
+[lib_footprint_issues]: The current configuration does not include the library 'Library'.
+    Local override; warning
+    @(160.0000 mm, 51.0000 mm): Footprint J1
+[lib_footprint_issues]: The current configuration does not include the library 'Library'.
+    Local override; warning
+    @(130.8500 mm, 45.1000 mm): Footprint D1
+[lib_footprint_issues]: The current configuration does not include the library 'Library'.
+    Local override; warning
+    @(107.8050 mm, 56.9000 mm): Footprint D4
+[lib_footprint_issues]: The current configuration does not include the library 'Library'.
+    Local override; warning
+    @(176.8050 mm, 72.9000 mm): Footprint D4
+[lib_footprint_issues]: The current configuration does not include the library 'Library'.
+    Local override; warning
+    @(114.0000 mm, 83.0000 mm): Footprint J1
+[lib_footprint_issues]: The current configuration does not include the library 'Library'.
+    Local override; warning
+    @(137.0000 mm, 67.0000 mm): Footprint J1
+[lib_footprint_issues]: The current configuration does not include the library 'Library'.
+    Local override; warning
+    @(176.8500 mm, 45.1000 mm): Footprint D1
+[lib_footprint_issues]: The current configuration does not include the library 'Library'.
+    Local override; warning
+    @(160.0000 mm, 83.0000 mm): Footprint J1
+[lib_footprint_issues]: The current configuration does not include the library 'Library'.
+    Local override; warning
+    @(130.8050 mm, 40.9000 mm): Footprint D4
+[lib_footprint_issues]: The current configuration does not include the library 'Library'.
+    Local override; warning
+    @(153.8500 mm, 29.1000 mm): Footprint D1
+[lib_footprint_issues]: The current configuration does not include the library 'Library'.
+    Local override; warning
+    @(107.8500 mm, 45.1000 mm): Footprint D1
+[lib_footprint_issues]: The current configuration does not include the library 'Library'.
+    Local override; warning
+    @(107.8050 mm, 88.9000 mm): Footprint D4
+[lib_footprint_issues]: The current configuration does not include the library 'Library'.
+    Local override; warning
+    @(137.0000 mm, 51.0000 mm): Footprint J1
+[lib_footprint_issues]: The current configuration does not include the library 'Library'.
+    Local override; warning
+    @(183.0000 mm, 35.0000 mm): Footprint J1
+[lib_footprint_issues]: The current configuration does not include the library 'Library'.
+    Local override; warning
+    @(137.0000 mm, 83.0000 mm): Footprint J1
+[lib_footprint_issues]: The current configuration does not include the library 'Library'.
+    Local override; warning
+    @(183.0000 mm, 83.0000 mm): Footprint J1
+[lib_footprint_issues]: The current configuration does not include the library 'Library'.
+    Local override; warning
+    @(160.0000 mm, 67.0000 mm): Footprint J1
+[lib_footprint_issues]: The current configuration does not include the library 'Library'.
+    Local override; warning
+    @(107.8500 mm, 61.1000 mm): Footprint D1
+[lib_footprint_issues]: The current configuration does not include the library 'Library'.
+    Local override; warning
+    @(183.0000 mm, 67.0000 mm): Footprint J1
+[lib_footprint_issues]: The current configuration does not include the library 'Library'.
+    Local override; warning
+    @(153.8050 mm, 72.9000 mm): Footprint D4
+[padstack]: Padstack is questionable (negative local clearance values have no effect)
+    Local override; warning
+    @(102.0000 mm, 95.5000 mm): Pad [<no net>] of KiKit_FID_T_3 on F.Cu
+[padstack]: Padstack is questionable (negative local clearance values have no effect)
+    Local override; warning
+    @(195.0000 mm, 22.5000 mm): Pad [<no net>] of KiKit_FID_T_2 on F.Cu
+[padstack]: Padstack is questionable (negative local clearance values have no effect)
+    Local override; warning
+    @(102.0000 mm, 22.5000 mm): Pad [<no net>] of KiKit_FID_T_1 on F.Cu
+[padstack]: Padstack is questionable (negative local clearance values have no effect)
+    Local override; warning
+    @(195.0000 mm, 22.5000 mm): Pad [<no net>] of KiKit_FID_B_2 on B.Cu
+[padstack]: Padstack is questionable (negative local clearance values have no effect)
+    Local override; warning
+    @(102.0000 mm, 22.5000 mm): Pad [<no net>] of KiKit_FID_B_1 on B.Cu
+[padstack]: Padstack is questionable (negative local clearance values have no effect)
+    Local override; warning
+    @(102.0000 mm, 95.5000 mm): Pad [<no net>] of KiKit_FID_B_3 on B.Cu
+[missing_courtyard]: Footprint has no courtyard defined
+    Local override; error
+    @(197.5000 mm, 22.5000 mm): Footprint KiKit_TO_2
+[missing_courtyard]: Footprint has no courtyard defined
+    Local override; error
+    @(99.5000 mm, 95.5000 mm): Footprint KiKit_TO_3
+[missing_courtyard]: Footprint has no courtyard defined
+    Local override; error
+    @(99.5000 mm, 22.5000 mm): Footprint KiKit_TO_1
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** End of Report **

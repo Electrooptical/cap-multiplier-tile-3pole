@@ -1,0 +1,82 @@
+(version 1)
+
+(rule Board_0-Vp_Vm
+	# Ensure sufficient clearance on power traces
+	(condition "A.NetClass == 'Board_0-V+' && B.NetClass == 'Board_0-V-'")
+	(constraint clearance (min "0.65mm"))
+)
+(rule Board_1-Vp_Vm
+	# Ensure sufficient clearance on power traces
+	(condition "A.NetClass == 'Board_1-V+' && B.NetClass == 'Board_1-V-'")
+	(constraint clearance (min "0.65mm"))
+)
+(rule Board_2-Vp_Vm
+	# Ensure sufficient clearance on power traces
+	(condition "A.NetClass == 'Board_2-V+' && B.NetClass == 'Board_2-V-'")
+	(constraint clearance (min "0.65mm"))
+)
+(rule Board_3-Vp_Vm
+	# Ensure sufficient clearance on power traces
+	(condition "A.NetClass == 'Board_3-V+' && B.NetClass == 'Board_3-V-'")
+	(constraint clearance (min "0.65mm"))
+)
+(rule Board_4-Vp_Vm
+	# Ensure sufficient clearance on power traces
+	(condition "A.NetClass == 'Board_4-V+' && B.NetClass == 'Board_4-V-'")
+	(constraint clearance (min "0.65mm"))
+)
+(rule Board_5-Vp_Vm
+	# Ensure sufficient clearance on power traces
+	(condition "A.NetClass == 'Board_5-V+' && B.NetClass == 'Board_5-V-'")
+	(constraint clearance (min "0.65mm"))
+)
+(rule Board_6-Vp_Vm
+	# Ensure sufficient clearance on power traces
+	(condition "A.NetClass == 'Board_6-V+' && B.NetClass == 'Board_6-V-'")
+	(constraint clearance (min "0.65mm"))
+)
+(rule Board_7-Vp_Vm
+	# Ensure sufficient clearance on power traces
+	(condition "A.NetClass == 'Board_7-V+' && B.NetClass == 'Board_7-V-'")
+	(constraint clearance (min "0.65mm"))
+)
+(rule Board_8-Vp_Vm
+	# Ensure sufficient clearance on power traces
+	(condition "A.NetClass == 'Board_8-V+' && B.NetClass == 'Board_8-V-'")
+	(constraint clearance (min "0.65mm"))
+)
+(rule Board_9-Vp_Vm
+	# Ensure sufficient clearance on power traces
+	(condition "A.NetClass == 'Board_9-V+' && B.NetClass == 'Board_9-V-'")
+	(constraint clearance (min "0.65mm"))
+)
+(rule Board_10-Vp_Vm
+	# Ensure sufficient clearance on power traces
+	(condition "A.NetClass == 'Board_10-V+' && B.NetClass == 'Board_10-V-'")
+	(constraint clearance (min "0.65mm"))
+)
+(rule Board_11-Vp_Vm
+	# Ensure sufficient clearance on power traces
+	(condition "A.NetClass == 'Board_11-V+' && B.NetClass == 'Board_11-V-'")
+	(constraint clearance (min "0.65mm"))
+)
+(rule Board_12-Vp_Vm
+	# Ensure sufficient clearance on power traces
+	(condition "A.NetClass == 'Board_12-V+' && B.NetClass == 'Board_12-V-'")
+	(constraint clearance (min "0.65mm"))
+)
+(rule Board_13-Vp_Vm
+	# Ensure sufficient clearance on power traces
+	(condition "A.NetClass == 'Board_13-V+' && B.NetClass == 'Board_13-V-'")
+	(constraint clearance (min "0.65mm"))
+)
+(rule Board_14-Vp_Vm
+	# Ensure sufficient clearance on power traces
+	(condition "A.NetClass == 'Board_14-V+' && B.NetClass == 'Board_14-V-'")
+	(constraint clearance (min "0.65mm"))
+)
+(rule Board_15-Vp_Vm
+	# Ensure sufficient clearance on power traces
+	(condition "A.NetClass == 'Board_15-V+' && B.NetClass == 'Board_15-V-'")
+	(constraint clearance (min "0.65mm"))
+)

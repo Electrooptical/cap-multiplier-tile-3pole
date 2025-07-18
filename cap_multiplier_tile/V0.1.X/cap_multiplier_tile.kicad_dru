@@ -1,0 +1,7 @@
+(version 1)
+
+(rule Vp_Vm
+	# Ensure sufficient clearance on power traces
+	(condition "A.NetClass == 'V+' && B.NetClass == 'V-'")
+	(constraint clearance (min "0.65mm"))
+)

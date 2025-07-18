@@ -1,0 +1,2007 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "f992e653-680b-49e8-aef0-130eb8187023")
+	(paper "A4")
+	(title_block
+		(title "Cap Multipliers")
+		(date "2025-07-18")
+		(rev "0.1.X")
+		(company "ElectroOptical Innovations")
+	)
+	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Library:cap_multiplier_board"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "cap_multiplier_board"
+				(at 10.16 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Library:board"
+				(at -1.27 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at -1.27 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, double row, 02x04, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at -1.27 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_2x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "cap_multiplier_board_1_1"
+				(rectangle
+					(start -2.54 -4.953)
+					(end -1.27 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -2.54 -2.413)
+					(end -1.27 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -2.54 0.127)
+					(end -1.27 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -2.54 2.667)
+					(end -1.27 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -2.54 3.81)
+					(end 2.54 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 2.54 -4.953)
+					(end 1.27 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.54 -2.413)
+					(end 1.27 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.54 0.127)
+					(end 1.27 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.54 2.667)
+					(end 1.27 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -6.35 2.54 0)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -6.35 0 0)
+					(length 3.81)
+					(name "V+IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -6.35 -2.54 0)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -6.35 -5.08 0)
+					(length 3.81)
+					(name "V-IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 -5.08 180)
+					(length 3.81)
+					(name "V-OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 -2.54 180)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 0 180)
+					(length 3.81)
+					(name "V+OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 2.54 180)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 151.13 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "10283f39-ef7a-49c2-83d9-6eb46a92a2e2")
+	)
+	(junction
+		(at 176.53 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2e817d5c-c852-43df-a468-8885da0c260b")
+	)
+	(junction
+		(at 182.88 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "35cdbb8b-6177-402d-9a6d-179c3aab495b")
+	)
+	(junction
+		(at 168.91 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "38b336f8-4356-477e-a5a1-9b310e67f2c1")
+	)
+	(junction
+		(at 143.51 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8998e661-8af3-4c17-a5aa-91e51f517169")
+	)
+	(junction
+		(at 168.91 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a8f6a213-d3b1-4ff4-895d-c120585ac1c5")
+	)
+	(junction
+		(at 137.16 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cdde92fe-d192-49bb-881b-c3ebb0291170")
+	)
+	(junction
+		(at 151.13 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e791aecd-9786-4cc3-8838-4ed3bbb3a44d")
+	)
+	(wire
+		(pts
+			(xy 166.37 118.11) (xy 168.91 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07d2025e-0bae-421f-b1a2-32b074c88eb8")
+	)
+	(wire
+		(pts
+			(xy 171.45 90.17) (xy 182.88 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10c20d6a-5584-4090-853f-7bc7e5af2b65")
+	)
+	(wire
+		(pts
+			(xy 176.53 115.57) (xy 176.53 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19be9063-f39f-42b3-98fb-5a606f683493")
+	)
+	(wire
+		(pts
+			(xy 166.37 115.57) (xy 176.53 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b870b63-3ae0-4ac1-8890-9e09fc764320")
+	)
+	(wire
+		(pts
+			(xy 171.45 87.63) (xy 176.53 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e69f1a8-bb5e-45d8-b69f-5d261480d6d3")
+	)
+	(wire
+		(pts
+			(xy 166.37 113.03) (xy 168.91 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38bc7ac6-c441-4fcb-b796-d9888ee3eb7b")
+	)
+	(wire
+		(pts
+			(xy 137.16 120.65) (xy 153.67 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43013000-d708-4819-ae47-43a804e07a5f")
+	)
+	(wire
+		(pts
+			(xy 137.16 120.65) (xy 137.16 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b0cc5c0-0590-4cb6-ae8d-3c922af8290f")
+	)
+	(wire
+		(pts
+			(xy 151.13 118.11) (xy 151.13 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e2a74ed-5647-4547-ad27-4b90567853d6")
+	)
+	(wire
+		(pts
+			(xy 182.88 120.65) (xy 182.88 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f7df80a-2b97-47d0-bc17-f5183aeb689f")
+	)
+	(wire
+		(pts
+			(xy 143.51 87.63) (xy 149.86 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77119bec-ec57-4b79-abc4-d6afa7ced9a6")
+	)
+	(wire
+		(pts
+			(xy 166.37 120.65) (xy 182.88 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "842e6e94-f1d4-4d2c-978f-6f3c878e70d5")
+	)
+	(wire
+		(pts
+			(xy 168.91 118.11) (xy 168.91 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9090e1d2-baf3-4a1a-8992-e646950156e9")
+	)
+	(wire
+		(pts
+			(xy 143.51 115.57) (xy 153.67 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99b00e58-77c0-4c0e-9e3e-277f0b219775")
+	)
+	(wire
+		(pts
+			(xy 143.51 115.57) (xy 143.51 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0f26a01-ee2b-46ab-af7b-8214847d9baa")
+	)
+	(wire
+		(pts
+			(xy 153.67 118.11) (xy 151.13 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c73488c3-8d23-4519-a07d-d58d6164694d")
+	)
+	(wire
+		(pts
+			(xy 153.67 113.03) (xy 151.13 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da7a82e3-8ff1-49d5-a624-ecd46bbafc1b")
+	)
+	(wire
+		(pts
+			(xy 137.16 92.71) (xy 149.86 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f46c2658-9c9d-4c1c-b725-9bf8498cae3b")
+	)
+	(wire
+		(pts
+			(xy 151.13 113.03) (xy 151.13 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f48059df-61e1-4439-81b9-31253c1cd161")
+	)
+	(wire
+		(pts
+			(xy 168.91 113.03) (xy 168.91 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f74e043e-d05f-47e9-9f4d-146d46433ad6")
+	)
+	(label "V-IN"
+		(at 137.16 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "028cb691-5d97-454b-bbd9-d247f0b38e58")
+	)
+	(label "V+IN"
+		(at 143.51 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0b94cfbd-a151-4d98-9e37-ac9b3241b810")
+	)
+	(label "V-OUT"
+		(at 182.88 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5a8a8b90-f940-43ca-b6c7-f7c9719c972f")
+	)
+	(label "V+OUT"
+		(at 176.53 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ebf93d6e-fc9e-4eac-978a-b1dd232acadf")
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 137.16 120.65 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "09557fda-34e3-4add-8108-cc4a1481dda5")
+		(property "Reference" "TP8"
+			(at 133.858 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-"
+			(at 132.08 118.618 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EOI:TestPoint_Pad_D1.0mm"
+			(at 137.16 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.16 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 137.16 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 137.16 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 137.16 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 137.16 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Known Supplier" ""
+			(at 137.16 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 137.16 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "74bcf349-2f2b-4910-a7b2-434833ecdde9")
+		)
+		(instances
+			(project "cap_multiplier_tile"
+				(path "/f992e653-680b-49e8-aef0-130eb8187023"
+					(reference "TP8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 151.13 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1f800e14-c07b-4b50-a48e-1bc9cb49c228")
+		(property "Reference" "#PWR1"
+			(at 151.13 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 151.13 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 151.13 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "de6f2018-36b1-415c-b457-39e596108750")
+		)
+		(instances
+			(project "cap_multiplier_tile"
+				(path "/f992e653-680b-49e8-aef0-130eb8187023"
+					(reference "#PWR1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 143.51 115.57 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "204798c4-c645-45ff-99b7-805ce4c26495")
+		(property "Reference" "TP7"
+			(at 140.208 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+"
+			(at 138.43 117.602 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EOI:TestPoint_Pad_D1.0mm"
+			(at 143.51 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 143.51 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 143.51 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 143.51 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 143.51 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 143.51 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Known Supplier" ""
+			(at 143.51 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 143.51 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "81f0dd86-8630-491e-99d5-829a7c9cb804")
+		)
+		(instances
+			(project "cap_multiplier_tile"
+				(path "/f992e653-680b-49e8-aef0-130eb8187023"
+					(reference "TP7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 151.13 118.11 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "22eb0571-c245-4f01-9117-9adb984b1320")
+		(property "Reference" "TP6"
+			(at 147.828 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 146.05 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EOI:TestPoint_Pad_D1.0mm"
+			(at 151.13 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 151.13 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 151.13 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 151.13 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 151.13 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 151.13 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Known Supplier" ""
+			(at 151.13 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 151.13 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "89ebf4df-e396-4f36-8b64-ad880321acbe")
+		)
+		(instances
+			(project "cap_multiplier_tile"
+				(path "/f992e653-680b-49e8-aef0-130eb8187023"
+					(reference "TP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 151.13 113.03 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "2e44ff6a-49ae-4a02-abac-9f925aa41cb0")
+		(property "Reference" "TP5"
+			(at 147.828 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 146.05 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EOI:TestPoint_Pad_D1.0mm"
+			(at 151.13 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 151.13 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 151.13 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 151.13 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 151.13 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 151.13 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Known Supplier" ""
+			(at 151.13 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 151.13 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ae44f196-5979-48a2-a3e5-e854f049b4c9")
+		)
+		(instances
+			(project "cap_multiplier_tile"
+				(path "/f992e653-680b-49e8-aef0-130eb8187023"
+					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Library:cap_multiplier_board")
+		(at 160.02 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "42c351d2-057b-4fee-9d50-e8a8ef0fe5c2")
+		(property "Reference" "J1"
+			(at 160.02 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "cap_multiplier_board"
+			(at 160.02 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Library:board"
+			(at 158.75 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x04, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 158.75 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "d353ab69-8e47-45cd-9dd1-dc8977a3327b")
+		)
+		(pin "7"
+			(uuid "0d8c366a-695f-4119-bcd4-fc2e7b5e7297")
+		)
+		(pin "5"
+			(uuid "1233b62e-6af4-4b57-aafb-0f17d8bb0c86")
+		)
+		(pin "4"
+			(uuid "ff08ba41-3423-4bad-a0ff-f9ff0a1d09ba")
+		)
+		(pin "1"
+			(uuid "c834cc1b-af67-4d06-b6de-627bab4222df")
+		)
+		(pin "3"
+			(uuid "95e7d0e0-092e-4e11-a006-23c76bdcc4f8")
+		)
+		(pin "2"
+			(uuid "799ba4d1-616f-4d8f-90a0-5f5a1e223570")
+		)
+		(pin "6"
+			(uuid "d6dccd1c-4840-4386-ad47-bd17257285c2")
+		)
+		(instances
+			(project ""
+				(path "/f992e653-680b-49e8-aef0-130eb8187023"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 168.91 123.19 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "56d7c607-b168-4dfc-b9de-e48260f5db4c")
+		(property "Reference" "#PWR17"
+			(at 168.91 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 168.91 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.91 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 168.91 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "89835c5f-7991-45ee-b14a-eaf5ea26e271")
+		)
+		(instances
+			(project "cap_multiplier_tile"
+				(path "/f992e653-680b-49e8-aef0-130eb8187023"
+					(reference "#PWR17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 176.53 115.57 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "687b9aba-625a-4ce6-a048-1fcf7b6a96eb")
+		(property "Reference" "TP1"
+			(at 179.832 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+"
+			(at 181.61 117.602 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EOI:TestPoint_Pad_D1.0mm"
+			(at 176.53 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 176.53 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 176.53 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 176.53 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 176.53 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 176.53 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Known Supplier" ""
+			(at 176.53 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 176.53 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2bb99abe-c727-45e1-908f-dfd61b50474c")
+		)
+		(instances
+			(project "cap_multiplier_tile"
+				(path "/f992e653-680b-49e8-aef0-130eb8187023"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 168.91 118.11 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "89e2c8be-2f93-4351-82af-19ecbb2cae9d")
+		(property "Reference" "TP3"
+			(at 172.212 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 173.99 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EOI:TestPoint_Pad_D1.0mm"
+			(at 168.91 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 168.91 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 168.91 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 168.91 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 168.91 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 168.91 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Known Supplier" ""
+			(at 168.91 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 168.91 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "20688b12-c119-4ef6-8ab2-7d9c3e238032")
+		)
+		(instances
+			(project "cap_multiplier_tile"
+				(path "/f992e653-680b-49e8-aef0-130eb8187023"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 168.91 113.03 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "a6782aa1-e413-4f7c-9a31-08d2be35aa43")
+		(property "Reference" "TP4"
+			(at 172.212 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 173.99 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EOI:TestPoint_Pad_D1.0mm"
+			(at 168.91 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 168.91 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 168.91 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 168.91 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 168.91 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 168.91 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Known Supplier" ""
+			(at 168.91 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 168.91 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bfcbe889-0467-40fc-8c49-976390bdfe8c")
+		)
+		(instances
+			(project "cap_multiplier_tile"
+				(path "/f992e653-680b-49e8-aef0-130eb8187023"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 182.88 120.65 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "c8540171-4590-4fcd-a74e-816b16adfaec")
+		(property "Reference" "TP2"
+			(at 186.182 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-"
+			(at 187.96 118.618 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EOI:TestPoint_Pad_D1.0mm"
+			(at 182.88 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 182.88 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 182.88 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 182.88 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 182.88 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 182.88 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Known Supplier" ""
+			(at 182.88 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 182.88 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0eaa8599-8a12-4e4a-9026-a0db8765a554")
+		)
+		(instances
+			(project "cap_multiplier_tile"
+				(path "/f992e653-680b-49e8-aef0-130eb8187023"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 149.86 85.09)
+		(size 21.59 10.16)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9d107078-2eac-4075-8970-de2041b637d3")
+		(property "Sheetname" "Power"
+			(at 149.86 84.3784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cap_multipliers.kicad_sch"
+			(at 143.51 95.758 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "V+IN" input
+			(at 149.86 87.63 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "be372d1e-03f0-43b3-8c97-727b911b80e4")
+		)
+		(pin "V+OUT" output
+			(at 171.45 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "dd8adfdf-5eb3-4011-b148-0ac964490e6e")
+		)
+		(pin "V-OUT" output
+			(at 171.45 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9e882d62-b920-43b6-9e9c-5bb1ac28667a")
+		)
+		(pin "V-IN" input
+			(at 149.86 92.71 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ab82f175-1331-4955-8720-277b783891df")
+		)
+		(instances
+			(project "cap_multiplier_tile"
+				(path "/f992e653-680b-49e8-aef0-130eb8187023"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
