@@ -1,10 +1,11 @@
 # Capacitance Multiplier Board
 This is a 3-pole capacitance multiplier board for use with low noise instruments.
-You sacrifice about a volt of supply but get an incredibly quiet power supply.
+You sacrifice about a volt but get an incredibly quiet power supply.
 
 + 3 Pole power supply filtering
-+ Bi-polar supplies up to +-20V. 
++ Bipolar supplies up to +-20V. 
 + Reverse polarity protection
++ Extreme rejection of switch mode power supply frequencies
 
 Used in our:
 
