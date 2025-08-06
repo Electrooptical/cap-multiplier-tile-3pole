@@ -841,7 +841,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "EOI:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "Library:TestPoint_Pad_D1.0mm"
 			(at 137.16 125.73 0)
 			(effects
 				(font
@@ -905,6 +905,15 @@
 			)
 		)
 		(property "Manufacturer" ""
+			(at 137.16 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 137.16 120.65 0)
 			(effects
 				(font
@@ -1019,7 +1028,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "EOI:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "Library:TestPoint_Pad_D1.0mm"
 			(at 143.51 110.49 0)
 			(effects
 				(font
@@ -1083,6 +1092,15 @@
 			)
 		)
 		(property "Manufacturer" ""
+			(at 143.51 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 143.51 115.57 0)
 			(effects
 				(font
@@ -1129,7 +1147,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EOI:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "Library:TestPoint_Pad_D1.0mm"
 			(at 151.13 113.03 0)
 			(effects
 				(font
@@ -1193,6 +1211,15 @@
 			)
 		)
 		(property "Manufacturer" ""
+			(at 151.13 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 151.13 118.11 0)
 			(effects
 				(font
@@ -1239,7 +1266,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EOI:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "Library:TestPoint_Pad_D1.0mm"
 			(at 151.13 107.95 0)
 			(effects
 				(font
@@ -1303,6 +1330,15 @@
 			)
 		)
 		(property "Manufacturer" ""
+			(at 151.13 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 151.13 113.03 0)
 			(effects
 				(font
@@ -1369,6 +1405,15 @@
 		)
 		(property "Description" "Generic connector, double row, 02x04, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 158.75 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 160.02 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1505,7 +1550,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "EOI:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "Library:TestPoint_Pad_D1.0mm"
 			(at 176.53 110.49 0)
 			(effects
 				(font
@@ -1569,6 +1614,15 @@
 			)
 		)
 		(property "Manufacturer" ""
+			(at 176.53 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 176.53 115.57 0)
 			(effects
 				(font
@@ -1616,7 +1670,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EOI:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "Library:TestPoint_Pad_D1.0mm"
 			(at 168.91 113.03 0)
 			(effects
 				(font
@@ -1680,6 +1734,15 @@
 			)
 		)
 		(property "Manufacturer" ""
+			(at 168.91 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 168.91 118.11 0)
 			(effects
 				(font
@@ -1727,7 +1790,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EOI:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "Library:TestPoint_Pad_D1.0mm"
 			(at 168.91 107.95 0)
 			(effects
 				(font
@@ -1791,6 +1854,15 @@
 			)
 		)
 		(property "Manufacturer" ""
+			(at 168.91 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 168.91 113.03 0)
 			(effects
 				(font
@@ -1838,7 +1910,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "EOI:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "Library:TestPoint_Pad_D1.0mm"
 			(at 182.88 125.73 0)
 			(effects
 				(font
@@ -1902,6 +1974,15 @@
 			)
 		)
 		(property "Manufacturer" ""
+			(at 182.88 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 182.88 120.65 0)
 			(effects
 				(font
